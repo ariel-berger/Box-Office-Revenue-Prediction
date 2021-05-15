@@ -134,7 +134,6 @@ dependencies:
     - pyrsistent==0.17.3
     - python-dateutil==2.8.1
     - python-editor==1.0.4
-    - python-graphviz==0.16
     - pytz==2021.1
     - pywavelets==1.1.1
     - pyyaml==5.4.1
@@ -169,9 +168,8 @@ dependencies:
     - textblob==0.15.3
     - thinc==7.4.5
     - threadpoolctl==2.1.0
-    - torch==1.8.1+cpu
+    - torch==1.8.1 - cpuonly
     - torchaudio==0.8.1
-    - torchvision==0.9.1+cpu
     - tornado==6.1
     - tqdm==4.60.0
     - traitlets==5.0.5
